@@ -28,8 +28,8 @@ class Flameling(Creature):
 
     def attack(self) -> str:
         """ """
-        attack: str = "Ember"
-        return f"{self.name} uses {attack}!"
+        move: str = "Ember"
+        return f"{self.name} uses {move}!"
 
 
 class Pyrodon(Creature):
@@ -41,8 +41,8 @@ class Pyrodon(Creature):
 
     def attack(self) -> str:
         """ """
-        attack: str = "Flamethrower"
-        return f"{self.name} uses {attack}!"
+        move: str = "Flamethrower"
+        return f"{self.name} uses {move}!"
 
 
 class Aquabub(Creature):
@@ -54,8 +54,8 @@ class Aquabub(Creature):
 
     def attack(self) -> str:
         """ """
-        attack: str = "Water Gun"
-        return f"{self.name} uses {attack}!"
+        move: str = "Water Gun"
+        return f"{self.name} uses {move}!"
 
 
 class Torragon(Creature):
@@ -67,8 +67,8 @@ class Torragon(Creature):
 
     def attack(self) -> str:
         """ """
-        attack: str = "Hydro Pump"
-        return f"{self.name} uses {attack}!"
+        move: str = "Hydro Pump"
+        return f"{self.name} uses {move}!"
 
 
 class CreatureFactory(ABC):

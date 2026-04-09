@@ -88,29 +88,25 @@ class CreatureFactory(ABC):
 class FlameFactory(CreatureFactory):
     """ """
 
-    def create_base(self) -> Creature:
+    def create_base(self) -> Flameling:
         """ """
-        creature = Flameling()
-        return creature
+        return Flameling()
 
-    def create_evolved(self) -> Creature:
+    def create_evolved(self) -> Pyrodon:
         """ """
-        creature = Pyrodon()
-        return creature
+        return Pyrodon()
 
 
 class AquaFactory(CreatureFactory):
     """ """
 
-    def create_base(self) -> Creature:
+    def create_base(self) -> Aquabub:
         """ """
-        creature = Aquabub()
-        return creature
+        return Aquabub()
 
-    def create_evolved(self) -> Creature:
+    def create_evolved(self) -> Torragon:
         """ """
-        creature = Torragon()
-        return creature
+        return Torragon()
 
 
 if __name__ == "__main__":

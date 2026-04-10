@@ -52,7 +52,7 @@ class AggressiveStrategy(BattleStrategy):
             return string
         else:
             string = "Battle error, aborting tournament: Invalid Creature "
-            string += f"{creature.name} for this aggressive strategy"
+            string += f"'{creature.name}' for this aggressive strategy"
             raise Exception(string)
 
 
@@ -75,5 +75,5 @@ class DefensiveStrategy(BattleStrategy):
             return string
         else:
             string = "Battle error, aborting tournament: Invalid Creature "
-            string += f"{creature.name} for this defensive strategy"
+            string += f"'{creature.name}' for this defensive strategy"
             raise Exception(string)

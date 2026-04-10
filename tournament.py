@@ -13,3 +13,7 @@ if __name__ == "__main__":
     shiftling = tcf.create_base()
     agr_s = ex2.AggressiveStrategy()
     print(agr_s.act(shiftling))
+    try:
+        print(agr_s.act(sproutling))
+    except Exception as e:
+        print(e)

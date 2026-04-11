@@ -41,7 +41,8 @@ if __name__ == "__main__":
         print(e)
 
     print("\nTournament 2 (multiple)")
-    print("  [ (Aquabub+Normal), (Healing+Defensive), (Transform+Aggressive) ]")
+    print(
+        "  [ (Aquabub+Normal), (Healing+Defensive), (Transform+Aggressive) ]")
     print("*** Tournament ***")
     print("3 opponents involved")
 

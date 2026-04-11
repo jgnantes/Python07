@@ -14,7 +14,6 @@ if __name__ == "__main__":
     print(bloomelle.describe())
     print(bloomelle.attack())
     print(bloomelle.heal())
-
     print("\nTesting Creature with transform capability")
     print("  base:")
     tcf = ex1.TransformCreatureFactory()
